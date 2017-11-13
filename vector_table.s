@@ -4,8 +4,10 @@
 .ent _vector_4
 _vector_4:
 #nop
-   la $a1, clock
-   jr $a1       		# unknowing or
+	nop
+	nop
+   #la $a1, clock
+   #jr $a1       		# unknowing or
    nop
 here_04:
 	b here_04
